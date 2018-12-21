@@ -1,0 +1,39 @@
+{
+  "name": "slow-unit-sandbox",
+  "version": "0.1.0",
+  "description": "Slow Unit Sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redradix/slow-unit-sandbox.git"
+  },
+  "author": "Slow Unit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redradix/slow-unit-sandbox/issues"
+  },
+  "homepage": "https://github.com/redradix/slow-unit-sandbox#readme",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "23.6.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "eslint": "^5.10.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "23.6.0",
+    "jest-dom": "^3.0.0",
+    "react-test-renderer": "16.7.0",
+    "react-testing-library": "^5.4.2",
+    "regenerator-runtime": "0.13.1"
+  },
+  "dependencies": {
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
+  }
+}
